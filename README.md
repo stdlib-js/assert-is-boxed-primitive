@@ -24,14 +24,30 @@ limitations under the License.
 
 > Test if a value is a JavaScript boxed primitive.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-boxed-primitive
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isBoxedPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boxed-primitive@esm/index.mjs';
+var isBoxedPrimitive = require( '@stdlib/assert-is-boxed-primitive' );
 ```
 
 #### isBoxedPrimitive( value )
@@ -41,7 +57,7 @@ Tests if a `value` is a JavaScript boxed primitive.
 <!-- eslint-disable no-new-wrappers-->
 
 ```javascript
-import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@esm/index.mjs';
+var Boolean = require( '@stdlib/boolean-ctor' );
 
 var bool = isBoxedPrimitive( new Boolean( false ) );
 // returns true
@@ -77,15 +93,10 @@ bool = isBoxedPrimitive( true );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@esm/index.mjs';
-import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isBoxedPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boxed-primitive@esm/index.mjs';
+```javascript
+var Boolean = require( '@stdlib/boolean-ctor' );
+var Number = require( '@stdlib/number-ctor' );
+var isBoxedPrimitive = require( '@stdlib/assert-is-boxed-primitive' );
 
 var bool = isBoxedPrimitive( new Boolean( false ) );
 // returns true
@@ -116,10 +127,6 @@ bool = isBoxedPrimitive( [] );
 
 bool = isBoxedPrimitive( {} );
 // returns false
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -134,7 +141,7 @@ bool = isBoxedPrimitive( {} );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-primitive`][@stdlib/assert/is-primitive]</span><span class="delimiter">: </span><span class="description">test if a value is a JavaScript primitive.</span>
+-   <span class="package-name">[`@stdlib/assert-is-primitive`][@stdlib/assert/is-primitive]</span><span class="delimiter">: </span><span class="description">test if a value is a JavaScript primitive.</span>
 
 </section>
 
@@ -149,7 +156,7 @@ bool = isBoxedPrimitive( {} );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -211,7 +218,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-primitive]: https://github.com/stdlib-js/assert-is-primitive/tree/esm
+[@stdlib/assert/is-primitive]: https://github.com/stdlib-js/assert-is-primitive
 
 <!-- </related-links> -->
 
