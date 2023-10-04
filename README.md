@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isBoxedPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boxed-primitive@esm/index.mjs';
+import isBoxedPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boxed-primitive@v0.1.1-esm/index.mjs';
 ```
 
 #### isBoxedPrimitive( value )
@@ -96,7 +96,7 @@ bool = isBoxedPrimitive( true );
 
 import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@esm/index.mjs';
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isBoxedPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boxed-primitive@esm/index.mjs';
+import isBoxedPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boxed-primitive@v0.1.1-esm/index.mjs';
 
 var bool = isBoxedPrimitive( new Boolean( false ) );
 // returns true
