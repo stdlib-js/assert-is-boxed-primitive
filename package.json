@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-boxed-primitive",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Test if a value is a JavaScript boxed primitive.",
   "license": "Apache-2.0",
   "author": {
@@ -40,14 +40,14 @@
     "@stdlib/assert-is-boolean": "^0.2.1",
     "@stdlib/assert-is-number": "^0.2.1",
     "@stdlib/assert-is-string": "^0.2.1",
-    "@stdlib/assert-is-symbol": "^0.2.1"
+    "@stdlib/assert-is-symbol": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-has-symbol-support": "^0.2.1",
-    "@stdlib/boolean-ctor": "^0.2.1",
-    "@stdlib/number-ctor": "^0.2.1",
+    "@stdlib/boolean-ctor": "^0.2.2",
+    "@stdlib/number-ctor": "^0.2.2",
     "@stdlib/object-ctor": "^0.2.1",
-    "@stdlib/symbol-ctor": "^0.2.1",
+    "@stdlib/symbol-ctor": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
