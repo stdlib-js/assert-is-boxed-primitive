@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isBoxedPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boxed-primitive@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-boxed-primitive/tags). For example,
+
+```javascript
 import isBoxedPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boxed-primitive@v0.2.3-deno/mod.js';
 ```
 
@@ -91,7 +96,7 @@ bool = isBoxedPrimitive( true );
 ```javascript
 import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean-ctor@deno/mod.js';
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isBoxedPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boxed-primitive@v0.2.3-deno/mod.js';
+import isBoxedPrimitive from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-boxed-primitive@deno/mod.js';
 
 var bool = isBoxedPrimitive( new Boolean( false ) );
 // returns true
